@@ -1,5 +1,80 @@
-body{
+b*{
     margin: 0;
     padding: 0;
+    font-size: 100%;
+    font: inherit;
+}
+ header{
+        background: url("back.webg");
+       flex-direction: column;
+        justify-content: space-between;
+        background-size: cover;
+        color: #fff;
+        padding:  1em 0;
+        height: 460px;
+        justify-content:space-between;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    padding: 0 1em;
+}
+header ul li a{
+    color: #fff;
+}
+header img{
+    width:200px ;
+    height: 50px;
+    border: 5px solid #fff;
+
+}
+.search-bar{
+    padding: 180px;
+}
+.search-bar input[type=text]{
+    padding: 1em;
+    border-radius: 50px;
+    width: 500px;
+    text-align: center;
+}
+.search-bar input[type=text]:focus{
+    outline: none;
+}
+.search-bar input[type=submit]{
+    font-weight: bolder;
+    background-color: goldenrod;
+    padding: 1em;
+}
+main{
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+main .cate-filtering{
+    padding: 2em;
     
+}
+#cate-filtering{
+    display: flex;
+    justify-content: center;
+}
+.cate-filtering ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+cate-filtering ul a{
+    color: #;
+}
+.container img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
